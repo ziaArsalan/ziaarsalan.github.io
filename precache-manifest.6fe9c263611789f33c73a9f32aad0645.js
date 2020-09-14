@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13837b1359995b6e7d6d7800c96a6543",
+    "revision": "05703e58e248f8f9fa02c2a536281a97",
     "url": "/index.html"
   },
   {
-    "revision": "b59f60dc18c0569ee43b",
-    "url": "/static/css/main.d4d2ba38.chunk.css"
+    "revision": "dcd52596da8c2206c0c1",
+    "url": "/static/css/main.ed4d1df7.chunk.css"
   },
   {
-    "revision": "cca356179074076e7f93",
-    "url": "/static/js/2.e5a9465c.chunk.js"
+    "revision": "cbb8e437dda0d2685ed0",
+    "url": "/static/js/2.1622e070.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.e5a9465c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1622e070.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b59f60dc18c0569ee43b",
-    "url": "/static/js/main.2444cc9b.chunk.js"
+    "revision": "dcd52596da8c2206c0c1",
+    "url": "/static/js/main.0e7babff.chunk.js"
   },
   {
     "revision": "ab1ba164c9b52bcafd0c",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Artboard6.5aff3b71.png"
   },
   {
+    "revision": "2737caaf0042c43a6355cd49baed586e",
+    "url": "/static/media/Artboard7.2737caaf.png"
+  },
+  {
     "revision": "ade91f473255991f410f61857696434b",
     "url": "/static/media/Montserrat-Bold.ade91f47.ttf"
   },
@@ -74,6 +78,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c0b95a71e20dd7a3f3e5149af4788992",
     "url": "/static/media/full-stack.c0b95a71.png"
+  },
+  {
+    "revision": "2560dcb4e53eef2ccf0a3b7e854a1ff5",
+    "url": "/static/media/loader.2560dcb4.gif"
+  },
+  {
+    "revision": "40a14a299e55fec85b7a6209282fbbbd",
+    "url": "/static/media/loader1.40a14a29.gif"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
