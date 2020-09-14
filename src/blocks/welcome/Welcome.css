@@ -1,0 +1,35 @@
+.welcome-main{
+    width: 100%;
+    height: calc(100vh - 82px);
+    padding-top: 30vh;
+    text-align: center;
+}
+.welcome-head{
+    display: flex;
+    justify-content: center;
+}
+.hello-world{
+    font-size: 3em;
+}
+.intro{
+    font-size: 2.2em;
+}
+.welcome-button{
+    width: fit-content;
+    margin: auto;
+}
+
+@media(max-width: 48em){
+    .hello-world{
+        font-size: 1.6em;
+    }
+    .intro{
+        font-size: 1.4em;
+    }
+}
+
+@media(max-width: 320px){
+    .hello-world{
+        font-size: 6vw;
+    }
+}
