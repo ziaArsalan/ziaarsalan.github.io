@@ -39,64 +39,64 @@ for(let i=1; i<8; i++){
 const loader = require('./assets/img/loader.gif')
 
 const profile = {
-    name: 'Zia Arsalan',
-    education: 'Electronic Engineer',
-    career: 'Full Stack Developer',
-    email: 'ziaarsalan94@yahoo.com',
-    contactEmail: ['zia20isys@gmail.com', 'ziaarsalan94@yahoo.com'],
-    phone: '+923475214748',
-    peoplePerHour: 'https://pph.me/ziaarssalan'
+    name          : 'Zia Arsalan',
+    education     : 'Electronic Engineer',
+    career        : 'Full Stack Developer',
+    email         : 'ziaarsalan94@yahoo.com',
+    contactEmail  : ['zia20isys@gmail.com', 'ziaarsalan94@yahoo.com'],
+    phone         : '+923475214748',
+    peoplePerHour : 'https://pph.me/ziaarssalan'
 }
 
 const welcome = {
-    greet: 'Hello World',
-    intro: 'I\'m Zia Arsalan',
-    detailIntro: 'Full Stack Developer | Designer | Career Counsler | Tech Student & Teacher'
+    greet       : 'Hello World',
+    intro       : 'I\'m Zia Arsalan',
+    detailIntro : 'Full Stack Developer | Designer | Career Counsler | Tech Student & Teacher'
 }
 
 const hexDetail = [
     {
-        heading: 'Fast',
-        description: 'Fast load times and lag free interaction, my highest priority.',
-        icon: speedometerIcon
+        heading     : 'Fast',
+        description : 'Fast load times and lag free interaction, my highest priority.',
+        icon        : speedometerIcon
     },
     {
-        heading: 'Responsive',
-        description: 'My layouts will work on any device, big or small.',
-        icon: cellphoneLink
+        heading     : 'Responsive',
+        description : 'My layouts will work on any device, big or small.',
+        icon        : cellphoneLink
     },
     {
-        heading: 'Intuitive',
-        description: 'Strong preference for easy to use, intuitive UX/UI.',
-        icon: lightBulbOutline
+        heading     : 'Intuitive',
+        description : 'Strong preference for easy to use, intuitive UX/UI.',
+        icon        : lightBulbOutline
     },
     {
-        heading: 'Dynamic',
-        description: 'Websites don\'t have to be static, I love making pages come to life.',
-        icon: rocket
+        heading     : 'Dynamic',
+        description : 'Websites don\'t have to be static, I love making pages come to life.',
+        icon        : rocket
     }
 ]
 
 const social = [
     {
-        name: 'github',
-        link: 'https://github.com/ziaarsalan',
-        icon: githubIcon
+        name : 'github',
+        link : 'https://github.com/ziaarsalan',
+        icon : githubIcon
     },
     {
-        name: 'email',
-        link: 'mailto:ziaarsalan94@yahoo.com',
-        icon: emailEdit
+        name : 'email',
+        link : 'mailto:ziaarsalan94@yahoo.com',
+        icon : emailEdit
     },
     {
-        name: 'linkedin',
-        link: 'https://www.linkedin.com/in/ziaarsalan/',
-        icon: linkedinIcon
+        name : 'linkedin',
+        link : 'https://www.linkedin.com/in/ziaarsalan/',
+        icon : linkedinIcon
     },
     {
-        name: 'facebook',
-        link: 'https://www.facebook.com/zia.arsalan',
-        icon: facebookIcon
+        name : 'facebook',
+        link : 'https://www.facebook.com/zia.arsalan',
+        icon : facebookIcon
     }
 ]
 
@@ -110,6 +110,12 @@ const skills = {
 }
 
 const projects = {
+    snapThatHome: {
+        name: 'SnapThatHome',
+        description: 'Snap that home is a real estate application to find best suitable home for you, but in-app messaging with your agent and ability to engage with finance, conveyancing and industry experts are just a few of the awesome things you get with us. And all with a wingman by your side.',
+        link: 'https://snapthathome.com.au/',
+        imageUrl: 'img/snapthathome.png'
+    },
     walletly: {
         name: 'Walletly',
         description: 'Wallelty is a software that you can connect to your chat bot. It makes possible for you to deliver a large array of campaigns such as coupons, loyalty cards and event tickets. The cards are delivered via the chatbot into the wallet app of your customer.',
@@ -127,6 +133,12 @@ const projects = {
         description: 'A better way to do business meaningful engagement institute long-lasting customer loyalty network with no limits tailored marketing campaigns impactful business relationships',
         link: 'https://minti.ai',
         imageUrl: 'img/minti.png'
+    },
+    beasty: {
+        name: 'Beasty',
+        description: 'A wallet app on ios and android platform with server side apis, having multiple feature to engage your customer.',
+        link: 'https://beasty.app/',
+        imageUrl: 'img/beasty.png'
     },
     monsterhub: {
         name: 'Monsterhub',
