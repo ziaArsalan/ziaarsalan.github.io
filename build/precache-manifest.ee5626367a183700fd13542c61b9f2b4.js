@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05703e58e248f8f9fa02c2a536281a97",
+    "revision": "d246e7acf1802e738c12a2b3d1abff97",
     "url": "/index.html"
   },
   {
-    "revision": "dcd52596da8c2206c0c1",
-    "url": "/static/css/main.ed4d1df7.chunk.css"
+    "revision": "49f2d17b82c8d1a46513",
+    "url": "/static/css/main.9e657cd0.chunk.css"
   },
   {
-    "revision": "cbb8e437dda0d2685ed0",
-    "url": "/static/js/2.1622e070.chunk.js"
+    "revision": "71054e2c3256bb64a458",
+    "url": "/static/js/2.2af231a9.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.1622e070.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2af231a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dcd52596da8c2206c0c1",
-    "url": "/static/js/main.0e7babff.chunk.js"
+    "revision": "49f2d17b82c8d1a46513",
+    "url": "/static/js/main.f9205877.chunk.js"
   },
   {
     "revision": "ab1ba164c9b52bcafd0c",
@@ -72,12 +72,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Walletly.0aedb80e.png"
   },
   {
+    "revision": "c1c89d89091bf05cba29f3eea77fe3c8",
+    "url": "/static/media/beasty.c1c89d89.png"
+  },
+  {
     "revision": "cad4f6446a6ab57107e058243209a2bc",
     "url": "/static/media/cloud-devops.cad4f644.png"
   },
   {
     "revision": "c0b95a71e20dd7a3f3e5149af4788992",
     "url": "/static/media/full-stack.c0b95a71.png"
+  },
+  {
+    "revision": "cd0bdbbf30cb79622e1608edf0fb89e7",
+    "url": "/static/media/html-editor.cd0bdbbf.png"
   },
   {
     "revision": "2560dcb4e53eef2ccf0a3b7e854a1ff5",
@@ -98,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "791e5d7be2fe196f4df9516a82f0fb48",
     "url": "/static/media/monsterhub.791e5d7b.png"
+  },
+  {
+    "revision": "25da7257fa0bfdbafa240ec47dd3ad18",
+    "url": "/static/media/snapthathome.25da7257.png"
   },
   {
     "revision": "01e6850fff3b0392d5c781fad4ce40cc",

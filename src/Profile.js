@@ -116,6 +116,12 @@ const projects = {
         link: 'https://snapthathome.com.au/',
         imageUrl: 'img/snapthathome.png'
     },
+    htmlEditor: {
+        name: 'HtmlEditor',
+        description: 'A design tool to create static html pages for your websites.',
+        link: 'https://html-editor-react.herokuapp.com/',
+        imageUrl: 'img/html-editor.png'
+    },
     walletly: {
         name: 'Walletly',
         description: 'Wallelty is a software that you can connect to your chat bot. It makes possible for you to deliver a large array of campaigns such as coupons, loyalty cards and event tickets. The cards are delivered via the chatbot into the wallet app of your customer.',
