@@ -110,6 +110,12 @@ const skills = {
 }
 
 const projects = {
+    zahraebrahim: {
+        name: 'Zahra Ebrahim',
+        description: 'An ecomerce website that deals in furnitures.',
+        link: 'https://zahraebrahim.com/',
+        imageUrl: 'img/zahra-ebrahim.png'
+    },
     snapThatHome: {
         name: 'SnapThatHome',
         description: 'Snap that home is a real estate application to find best suitable home for you, but in-app messaging with your agent and ability to engage with finance, conveyancing and industry experts are just a few of the awesome things you get with us. And all with a wingman by your side.',
