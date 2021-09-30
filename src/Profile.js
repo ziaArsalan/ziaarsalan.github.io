@@ -116,6 +116,12 @@ const projects = {
         link: 'https://zahraebrahim.com/',
         imageUrl: 'img/zahra-ebrahim.png'
     },
+    pakistanglobaltannery: {
+        name: 'Pakistan Global Tannery',
+        description: 'A landing page for a leather industry based company',
+        link: 'https://pakistanglobaltannery.com/',
+        imageUrl: 'img/pgt.png'
+    },
     snapThatHome: {
         name: 'SnapThatHome',
         description: 'Snap that home is a real estate application to find best suitable home for you, but in-app messaging with your agent and ability to engage with finance, conveyancing and industry experts are just a few of the awesome things you get with us. And all with a wingman by your side.',

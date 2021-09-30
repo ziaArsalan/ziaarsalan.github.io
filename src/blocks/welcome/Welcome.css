@@ -3,6 +3,9 @@
     height: calc(100vh - 82px);
     padding-top: 30vh;
     text-align: center;
+    background: url('/img/software-engineer.jpeg') center center no-repeat fixed;
+    background-size: cover;
+    color: white;
 }
 .welcome-head{
     display: flex;
