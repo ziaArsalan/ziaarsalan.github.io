@@ -17,7 +17,7 @@ export default function Main() {
             <Skills />
             <Project />
             <Review />
-            <Contact />
+            {/* <Contact /> */}
             <Footer />
         </div>
     )
