@@ -20,6 +20,7 @@
 }
 .email{
     color: #fca326;
+    color: inherit;
 }
 .social-icon:hover{
     color: #55198b;

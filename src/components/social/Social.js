@@ -9,7 +9,7 @@ export default function About() {
             {social.map((platform, index) => (
                 <a key={index} href={platform.link} target="_blank">
                     <div className="social-icon">
-                        <Icon icon={platform.icon} className={platform.name} />
+                        <Icon icon={platform.icon} color={'inherit'} className={platform.name} />
                     </div>
                 </a>
             ))}
