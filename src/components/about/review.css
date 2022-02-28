@@ -1,0 +1,29 @@
+.r-wrapper{
+    width: 100%;
+    animation: live 30s ease-in-out infinite alternate;
+    display: flex;
+    margin-top: 20px;
+}
+
+.r-item{
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes live {
+    25% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  }

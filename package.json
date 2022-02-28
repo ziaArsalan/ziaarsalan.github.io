@@ -1,26 +1,29 @@
 {
-  "name": "zia-portfolio",
+  "name": "new",
+  "homepage": "http://lamawebdev.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "gh-pages": "^2.2.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-reveal": "^1.2.2",
-    "react-scripts": "3.4.1"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "emailjs-com": "^3.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b origin -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -35,8 +38,6 @@
     ]
   },
   "devDependencies": {
-    "@iconify/icons-mdi": "^1.0.94",
-    "@iconify/icons-simple-icons": "^1.0.29",
-    "@iconify/react": "^1.1.3"
+    "@iconify/react": "^3.1.3"
   }
 }

@@ -1,29 +1,22 @@
 .social-wrap{
     max-width: 400px;
-    margin: auto;
+    margin-top: 20px;
+    margin-left: auto;
     text-align: center;
 }
+a{
+    color: inherit;
+}
 .social-icon{
-    font-size: 56px;
+    font-size: 36px;
+    color: inherit;
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
 }
-.github{
-    color: #333;
-}
-.linkedin{
-    color: #0e76a8;
-}
-.facebook{
-    color: #3b5998;
-}
-.email{
-    color: #fca326;
-    color: inherit;
-}
+
 .social-icon:hover{
-    color: #55198b;
+    opacity: 0.9;
 }
 @media(max-width: 320px){
     .social-icon{

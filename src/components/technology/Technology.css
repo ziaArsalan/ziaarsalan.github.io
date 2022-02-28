@@ -1,0 +1,45 @@
+.tech-title{
+    max-width: 750px;
+    margin-bottom: 40px;
+}
+.tech-icon{
+    font-size: 36px;
+}
+.tech-desc{
+    margin-top: 5px;
+}
+.tech-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.tech-row>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tech-row>div>div{
+    padding: 15px;
+}
+
+.tech-cat{
+    font-size: 22px;
+    font-weight: 400;
+    width: 30%;
+    text-align: left;
+}
+
+@media(max-width: 768px){
+    .tech-title{
+        font-size: 36px;
+    }
+}
+
+@media(max-width: 320px){
+    .tech-title{
+        font-size: 22px;
+    }
+}
