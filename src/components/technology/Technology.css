@@ -12,29 +12,34 @@
     display: flex;
     flex-wrap: wrap;
     width: 60%;
-    justify-content: space-between;
+    margin: 20px auto;
+    justify-content: left;
     align-items: baseline;
 }
 
 .tech-row>div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: left;
 }
 .tech-row>div>div{
-    padding: 15px;
+    width: 86px;
 }
 
 .tech-cat{
     font-size: 22px;
     font-weight: 400;
     width: 30%;
+    margin-bottom: 20px;
     text-align: left;
 }
 
 @media(max-width: 768px){
     .tech-title{
         font-size: 36px;
+    }
+    .tech-row{
+        width: 86%;
     }
 }
 

@@ -7,7 +7,7 @@ export default function Technologies() {
     return (
        <div className='pl'>
             <h1 className="pl-title tech-title">I Keep My Hands Dirty With These Technologies</h1>
-            <div className='a-sub tech-row'>
+            <div className='tech-row'>
                 <h1 className='tech-cat'>Frontend</h1>
                 <div>
                     {technologies.forntend.map(icon=><div>
@@ -17,7 +17,7 @@ export default function Technologies() {
 
                 </div>
             </div>
-            <div className='a-sub tech-row'>
+            <div className='tech-row'>
                 <h1 className='tech-cat'>Backend</h1>
                 <div>
                     {technologies.backend.map(icon=><div>
@@ -27,7 +27,7 @@ export default function Technologies() {
 
                 </div>
             </div>
-            <div className='a-sub tech-row'>
+            <div className='tech-row'>
                 <h1 className='tech-cat'>Database</h1>
                 <div>
                     {technologies.database.map(icon=><div>
@@ -37,7 +37,7 @@ export default function Technologies() {
 
                 </div>
             </div>
-            <div className='a-sub tech-row'>
+            <div className='tech-row'>
                 <h1 className='tech-cat'>Server/Cloud Computing</h1>
                 <div>
                     {technologies.server.map(icon=><div>
@@ -47,7 +47,7 @@ export default function Technologies() {
 
                 </div>
             </div>
-            <div className='a-sub tech-row'>
+            <div className='tech-row'>
                 <h1 className='tech-cat'>Others</h1>
                 <div>
                     {technologies.other.map(icon=><div>

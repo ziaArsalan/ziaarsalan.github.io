@@ -1,7 +1,28 @@
-body{
-    overflow-x: hidden;
-}
 .container{
     max-width: 1800px;
     margin: auto;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font: 19px / 23px;
+  color: #323232;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, ::before, ::after{
+  box-sizing: border-box;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
 }

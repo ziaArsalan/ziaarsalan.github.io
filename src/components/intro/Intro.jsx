@@ -15,8 +15,8 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, My name is</h2>
-          {/* <h1 className="i-name">Zia Arsalan</h1> */}
-          <ParticleAnimation Image={theme.state.darkMode ? TitleLight : Title } />
+          <h1 className="i-name d-none d-md-block">Zia Arsalan</h1>
+          <div className="d-block d-md-none"><ParticleAnimation Image={theme.state.darkMode ? TitleLight : Title } /></div>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Full Stack</div>

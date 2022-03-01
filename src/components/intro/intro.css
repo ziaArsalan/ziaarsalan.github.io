@@ -29,7 +29,7 @@
 }
 
 .i-name {
-  font-size: 60px;
+  font-size: 45px;
 }
 
 .i-title {
@@ -102,6 +102,13 @@
   top: 0;
   right: 0;
 }
+.d-none{
+  display: none;
+}
+
+.d-block{
+  display: block;
+}
 
 @media screen and (max-width: 480px) {
   .i {
@@ -121,4 +128,12 @@
     display: none;
   }
   
+  .d-md-block{
+    display: block;
+  }
+
+  .d-md-none{
+    display: none;
+  }
+
 }

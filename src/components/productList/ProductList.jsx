@@ -17,8 +17,8 @@ const ProductList = () => {
         </p>
       </div>
       <div className="pl-list pl-center">
-        <ProductVideo allow={'autoplay;'} link={'https://dev.walletcampaigns.ai'} embededId={'0syOUeKI3bg'} />
-        <ProductVideo link={'https://html-editor-react.herokuapp.com/'} embededId={'SyrcYI4wOmQ'} />
+        <ProductVideo allow={"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"} link={'https://dev.walletcampaigns.ai'} embededId={'0syOUeKI3bg'} />
+        <ProductVideo allow={"accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"} link={'https://html-editor-react.herokuapp.com/'} embededId={'SyrcYI4wOmQ'} />
       </div>
         <div className="pl-list">
           {products.map((item) => (

@@ -6,8 +6,7 @@ const Youtube = ({embededId, allow}) => {
             height="100vh"
             src={`https://www.youtube.com/embed/${embededId}`}
             frameBorder="0"
-            allow={`accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture ${allow}`}
-            
+            allow={allow}
             allowFullScreen
             title="Embedded youtube"
         />
