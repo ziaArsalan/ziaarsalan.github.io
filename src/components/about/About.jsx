@@ -13,13 +13,13 @@ const About = () => {
           <img
             // src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
             src={Bg}
-            alt=""
+            alt="Zia Arsalan"
             className="a-img"
           />
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
+        <h3 className="a-title">About Me</h3>
         <p className="a-sub">
           👋 I'm a Full Stack Engineer (Front-end Focused) with overall 3+ years of vast 
           and diversified experience working on enterprise and start-up projects.
@@ -31,7 +31,7 @@ const About = () => {
         </p>
 
 
-        <h1 className="a-title">Reviews </h1>
+        <h3 className="a-title">Reviews </h3>
         {/* <div className="pic-ctn">
           {reviews.map((item, idx)=>(<div key={idx} className="a-award">
             <img src={item.avatar} alt="" className="a-award-img" />
@@ -46,7 +46,7 @@ const About = () => {
 
         <div className="r-wrapper">
             {reviews.map((item, idx)=>(<div key={idx} className="r-item">
-              <img src={item.avatar} alt="" className="a-award-img" />
+              <img src={item.avatar} alt={item.name} className="a-award-img" />
               <div className="a-award-texts">
                 <h4 className="a-award-title">
                   <a href={item.link} target="_blank">{item.name}</a>

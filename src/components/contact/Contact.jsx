@@ -37,18 +37,18 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h3 className="c-title">Let's discuss your project</h3>
           <div className="c-info">
             <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
+              <img src={Phone} alt="phone" className="c-icon" />
               +92 347 521 4748
             </div>
             <div className="c-info-item">
-              <img className="c-icon" src={Email} alt="" />
+              <img className="c-icon" src={Email} alt="email" />
               ziaarsalan94@yahoo.com
             </div>
             <div className="c-info-item">
-              <img className="c-icon" src={Address} alt="" />
+              <img className="c-icon" src={Address} alt="address" />
               Gulshan Iqbal, Karachi Pakistan
             </div>
           </div>

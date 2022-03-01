@@ -8,8 +8,7 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        {/* <h1 className="pl-title">Create & inspire. It's Lama</h1> */}
-        <h1 className="pl-title">Stunning & Inspiring Projects.</h1>
+        <h3 className="pl-title">Stunning & Inspiring Projects.</h3>
         <p className="pl-desc">
           Here are some influencive, attractive and user friendly projects that 
           has beautifull designs with complex business logic, beside this frontend 

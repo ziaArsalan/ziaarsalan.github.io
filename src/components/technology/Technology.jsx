@@ -6,9 +6,9 @@ import { Icon } from '@iconify/react';
 export default function Technologies() {
     return (
        <div className='pl'>
-            <h1 className="pl-title tech-title">I Keep My Hands Dirty With These Technologies</h1>
+            <h3 className="pl-title tech-title">I Keep My Hands Dirty With These Technologies</h3>
             <div className='tech-row'>
-                <h1 className='tech-cat'>Frontend</h1>
+                <h4 className='tech-cat'>Frontend</h4>
                 <div>
                     {technologies.forntend.map(icon=><div>
                         <Icon icon={icon.icon} className="tech-icon" />
@@ -18,7 +18,7 @@ export default function Technologies() {
                 </div>
             </div>
             <div className='tech-row'>
-                <h1 className='tech-cat'>Backend</h1>
+                <h4 className='tech-cat'>Backend</h4>
                 <div>
                     {technologies.backend.map(icon=><div>
                         <Icon icon={icon.icon} className="tech-icon" />
@@ -28,7 +28,7 @@ export default function Technologies() {
                 </div>
             </div>
             <div className='tech-row'>
-                <h1 className='tech-cat'>Database</h1>
+                <h4 className='tech-cat'>Database</h4>
                 <div>
                     {technologies.database.map(icon=><div>
                         <Icon icon={icon.icon} className="tech-icon" />
@@ -38,7 +38,7 @@ export default function Technologies() {
                 </div>
             </div>
             <div className='tech-row'>
-                <h1 className='tech-cat'>Server/Cloud Computing</h1>
+                <h4 className='tech-cat'>Server/Cloud Computing</h4>
                 <div>
                     {technologies.server.map(icon=><div>
                         <Icon icon={icon.icon} className="tech-icon" />
@@ -48,7 +48,7 @@ export default function Technologies() {
                 </div>
             </div>
             <div className='tech-row'>
-                <h1 className='tech-cat'>Others</h1>
+                <h4 className='tech-cat'>Others</h4>
                 <div>
                     {technologies.other.map(icon=><div>
                         <Icon icon={icon.icon} className="tech-icon" />

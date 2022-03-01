@@ -25,7 +25,7 @@ useEffect(onLoad, [])
   return (
     <div id="particle-slider" style={{marginLeft: theme.state.darkMode ? '-27px' : '-18px'}}>
       <div class="slides">
-          {window.ParticleSlider ? <Image /> : <h1 className="i-name" style={{margin: '20px'}}>Zia Arsalan</h1>}
+          {window.ParticleSlider ? <Image /> : <h3 className="i-name" style={{margin: '20px 25px'}}>Zia Arsalan</h3>}
       </div>
       {window.ParticleSlider && <canvas class="draw" width="400"></canvas>}
   </div>
