@@ -162,6 +162,11 @@ export const social = [
       name : 'upwork',
       link : 'https://www.upwork.com/freelancers/~0178899ba493a3f67a',
       icon : 'simple-icons:upwork'
+  },
+  {
+    name : 'youtube',
+    link : 'https://www.youtube.com/channel/UCd6aKMSc6kF2KshL8PHxauA',
+    icon : 'fa6-brands:youtube'
   }
 ]
 
