@@ -1,27 +1,27 @@
-.social-wrap{
-    max-width: 400px;
-    margin-top: 20px;
-    margin-left: auto;
-    text-align: center;
+.social-wrap {
+  max-width: 450px;
+  margin-top: 20px;
+  margin-left: auto;
+  text-align: center;
 }
-a{
-    color: inherit;
+a {
+  color: inherit;
 }
-.social-icon{
-    font-size: 36px;
-    color: inherit;
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+.social-icon {
+  font-size: 36px;
+  color: inherit;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.social-icon:hover{
-    opacity: 0.9;
+.social-icon:hover {
+  opacity: 0.9;
 }
-@media(max-width: 400px){
-    .social-icon{
-        font-size: 9vw;
-        margin-left: 2vw;
-        margin-right: 2vw;
-    }
+@media (max-width: 400px) {
+  .social-icon {
+    font-size: 9vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
 }
