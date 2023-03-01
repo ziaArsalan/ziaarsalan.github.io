@@ -9,7 +9,7 @@
 
 .p-browser {
   height: 20px;
-  background-color: rgb(243, 242, 242);
+  background-color: rgb(181 169 169);
   display: flex;
   align-items: center;
   position: sticky;
@@ -22,6 +22,12 @@
   border-radius: 50%;
   margin: 3px;
   background-color: white;
+}
+
+.p-title {
+  margin-left: 5px;
+  font-size: 14px;
+  text-transform: capitalize;
 }
 
 .p-img {
