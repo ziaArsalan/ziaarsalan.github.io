@@ -11,6 +11,7 @@ import airtap from './img/airtap.png'
 import tradexco from './img/tradexco.png'
 import micahguru from './img/Micahguru.png'
 import takafulbazar from './img/takafulbazar.png'
+import anastomosis from './img/anastomosis.png'
 
 import Adeel from './img/adeel.jpeg'
 import Hoogsteder from './img/hoogsteder.jpeg'
@@ -19,6 +20,12 @@ import Brams from './img/bram.jpeg'
 import Jose from './img/jose.jpeg'
 
 export const products = [
+  {
+    id: 14,
+    title: 'Anastomosis',
+    img: anastomosis,
+    link: 'http://anastomosisdesignlab.com/',
+  },
   {
     id: 6,
     title: 'beasty',

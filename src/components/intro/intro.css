@@ -84,8 +84,9 @@
 
 .i-img {
   width: 85%;
-  height: 85%;
+  height: 100%;
   object-fit: cover;
+  object-position: top;
   position: absolute;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -102,11 +103,11 @@
   top: 0;
   right: 0;
 }
-.d-none{
+.d-none {
   display: none;
 }
 
-.d-block{
+.d-block {
   display: block;
 }
 
@@ -116,7 +117,6 @@
   }
 
   .i-left-wrapper {
-  
     padding: 10px;
     align-items: center;
     justify-content: center;
@@ -124,16 +124,15 @@
     height: 100%;
   }
 
-  .i-desc{
+  .i-desc {
     display: none;
   }
-  
-  .d-md-block{
+
+  .d-md-block {
     display: block;
   }
 
-  .d-md-none{
+  .d-md-none {
     display: none;
   }
-
 }
