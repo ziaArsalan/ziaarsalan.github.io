@@ -28,10 +28,10 @@
   width: 100%;
   transition: all 10s ease;
 }
-.pv > a {
-  padding: 20px;
-}
-.pv > iframe {
+/* .pv > a {
+  padding: 10px;
+} */
+.pv iframe {
   height: 40vh;
 }
 

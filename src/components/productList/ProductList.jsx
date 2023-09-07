@@ -20,14 +20,14 @@ const ProductList = () => {
           allow={
             'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
           }
-          link={'https://dev.walletcampaigns.ai'}
+          // link={'https://dev.walletcampaigns.ai'}
           embededId={'0syOUeKI3bg'}
         />
         <ProductVideo
           allow={
             'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
           }
-          link={'https://html-editor-react.herokuapp.com/'}
+          // link={'https://html-editor-react.herokuapp.com/'}
           embededId={'SyrcYI4wOmQ'}
         />
       </div>

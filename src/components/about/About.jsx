@@ -31,8 +31,8 @@ const About = () => {
       <div className='a-right'>
         <h3 className='a-title'>About Me</h3>
         <p className='a-sub'>
-          👋 I'm a Full Stack Engineer (Front-end Focused) with overall{' '}
-          <b>6+ years </b> of vast and diversified experience working on
+          👋 I'm a Full Stack Engineer (Front-end Focused) SaaS Expert with
+          overall <b>6+ years </b> of vast and diversified experience working on
           enterprise and start-up projects.
         </p>
         <p className='a-desc'>
