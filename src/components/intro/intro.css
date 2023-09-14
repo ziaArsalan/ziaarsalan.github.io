@@ -83,7 +83,7 @@
 }
 
 .i-img {
-  width: 85%;
+  min-width: 85%;
   height: 100%;
   object-fit: cover;
   object-position: top;

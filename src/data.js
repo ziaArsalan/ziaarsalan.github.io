@@ -12,6 +12,9 @@ import tradexco from './img/tradexco.png'
 import micahguru from './img/Micahguru.png'
 import takafulbazar from './img/takafulbazar.png'
 import anastomosis from './img/anastomosis.png'
+import taskpro from './img/taskpro.png'
+import cardly from './img/cardlysa.png'
+import lct from './img/lct-auto.png'
 
 import Adeel from './img/adeel.jpeg'
 import Hoogsteder from './img/hoogsteder.jpeg'
@@ -21,13 +24,31 @@ import Jose from './img/jose.jpeg'
 
 export const products = [
   {
+    id: 17,
+    title: 'LCT Auto',
+    img: lct,
+    link: 'https://lctautollc.com',
+  },
+  {
+    id: 16,
+    title: 'Cardly',
+    img: cardly,
+    link: 'https://app.cardlysa.com',
+  },
+  {
+    id: 15,
+    title: 'Task Pro (Project management)',
+    img: taskpro,
+    link: 'https://app.recrula.com',
+  },
+  {
     id: 14,
     title: 'Anastomosis',
     img: anastomosis,
     link: 'http://anastomosisdesignlab.com/',
   },
   {
-    id: 6,
+    id: 13,
     title: 'beasty',
     img: beasty,
     link: 'https://beasty.app/',
@@ -39,19 +60,19 @@ export const products = [
     link: 'https://micahguru.co.uk/',
   },
   {
-    id: 10,
+    id: 11,
     title: 'airtap',
     img: airtap,
     link: 'https://airtap.ca/',
   },
   {
-    id: 9,
+    id: 10,
     title: 'walletly',
     img: walletly,
     link: 'https://walletly.ai/',
   },
   {
-    id: 11,
+    id: 9,
     title: 'tradexco',
     img: tradexco,
     link: 'https://tradexco.com.au/',
@@ -63,43 +84,43 @@ export const products = [
     link: 'https://zod.media/',
   },
   {
-    id: 3,
+    id: 7,
     title: 'rently',
     img: rently,
     link: 'https://www.rently.pk/',
   },
   {
-    id: 1,
+    id: 6,
     title: 'portfolio',
     img: portfolio,
     link: 'https://ziaarsalan.github.io',
   },
   {
-    id: 2,
+    id: 5,
     title: 'snap that home',
     img: snapthathome,
     link: 'https://snapthathome.com.au/',
   },
   {
-    id: 5,
+    id: 4,
     title: 'coding school',
     img: codingschool,
     link: 'https://the-cs.org/',
   },
   {
-    id: 4,
+    id: 3,
     title: 'zara ebrahim',
     img: zaraebrahim,
     link: 'https://zahraebrahim.com/',
   },
   {
-    id: 13,
+    id: 2,
     title: 'takaful bazar',
     img: takafulbazar,
     link: 'https://takafulbazaar.pk/',
   },
   {
-    id: 7,
+    id: 1,
     title: 'monsterhub',
     img: monsterhub,
     link: 'https://monsterhub.io/',

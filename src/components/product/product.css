@@ -1,6 +1,7 @@
 .p {
   width: 30%;
   height: 40vh;
+  min-height: 280px;
   margin: 20px 10px;
   border: 2px solid rgb(243, 242, 242);
   border-radius: 10px 10px 0px 0px;
@@ -33,15 +34,36 @@
 .p-img {
   width: 100%;
   transition: all 10s ease;
+  min-height: 280px;
+  object-fit: contain;
 }
 
 .p:hover .p-img {
   transform: translateY(-100%);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
   .p {
-    width: 40%;
+    width: 45%;
     height: 20vh;
+    min-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .p-img {
+    min-height: 250px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .p {
+    width: 80%;
+    height: 20vh;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .p-img {
+    min-height: 200px;
   }
 }

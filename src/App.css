@@ -1,6 +1,6 @@
-.container{
-    max-width: 1800px;
-    margin: auto;
+.container {
+  /* max-width: 1800px; */
+  /* margin: auto; */
 }
 
 html,
@@ -17,7 +17,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-*, ::before, ::after{
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 /* Media Query */
