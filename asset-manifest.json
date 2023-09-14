@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad8416d5.chunk.css",
-    "main.js": "/static/js/main.1671c2e1.chunk.js",
-    "main.js.map": "/static/js/main.1671c2e1.chunk.js.map",
+    "main.css": "/static/css/main.454a226a.chunk.css",
+    "main.js": "/static/js/main.9a489bdd.chunk.js",
+    "main.js.map": "/static/js/main.9a489bdd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9412c5a0.js",
     "runtime-main.js.map": "/static/js/runtime-main.9412c5a0.js.map",
     "static/js/2.1f42caec.chunk.js": "/static/js/2.1f42caec.chunk.js",
     "static/js/2.1f42caec.chunk.js.map": "/static/js/2.1f42caec.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ad8416d5.chunk.css.map": "/static/css/main.ad8416d5.chunk.css.map",
+    "static/css/main.454a226a.chunk.css.map": "/static/css/main.454a226a.chunk.css.map",
     "static/js/2.1f42caec.chunk.js.LICENSE.txt": "/static/js/2.1f42caec.chunk.js.LICENSE.txt",
     "static/media/Micahguru.58eeb7ce.png": "/static/media/Micahguru.58eeb7ce.png",
     "static/media/address.a01cb8cc.png": "/static/media/address.a01cb8cc.png",
@@ -19,10 +19,12 @@
     "static/media/beasty.f5f746a8.png": "/static/media/beasty.f5f746a8.png",
     "static/media/bg.8cfaf03f.png": "/static/media/bg.8cfaf03f.png",
     "static/media/bram.08ae9d76.jpeg": "/static/media/bram.08ae9d76.jpeg",
+    "static/media/cardlysa.4e65181e.png": "/static/media/cardlysa.4e65181e.png",
     "static/media/codingschool.f145887a.png": "/static/media/codingschool.f145887a.png",
     "static/media/email.a49e0158.png": "/static/media/email.a49e0158.png",
     "static/media/hoogsteder.34df6d0a.jpeg": "/static/media/hoogsteder.34df6d0a.jpeg",
     "static/media/jose.1dcf602e.jpeg": "/static/media/jose.1dcf602e.jpeg",
+    "static/media/lct-auto.72c905a4.png": "/static/media/lct-auto.72c905a4.png",
     "static/media/me.04cb6a2b.png": "/static/media/me.04cb6a2b.png",
     "static/media/monsterhub.4560044d.png": "/static/media/monsterhub.4560044d.png",
     "static/media/moon.3bea3d39.png": "/static/media/moon.3bea3d39.png",
@@ -32,16 +34,17 @@
     "static/media/rupert.2f6e9800.jpeg": "/static/media/rupert.2f6e9800.jpeg",
     "static/media/snapthathome.ec124273.png": "/static/media/snapthathome.ec124273.png",
     "static/media/sun.f794832a.png": "/static/media/sun.f794832a.png",
-    "static/media/takafulbazar.fc99d5b8.png": "/static/media/takafulbazar.fc99d5b8.png",
+    "static/media/takafulbazar.6bfabadc.png": "/static/media/takafulbazar.6bfabadc.png",
+    "static/media/taskpro.6810b17e.png": "/static/media/taskpro.6810b17e.png",
     "static/media/tradexco.d271c83e.png": "/static/media/tradexco.d271c83e.png",
-    "static/media/walletly.3b346e5f.png": "/static/media/walletly.3b346e5f.png",
+    "static/media/walletly.57866643.png": "/static/media/walletly.57866643.png",
     "static/media/zara-ebrahim.7090b4f5.png": "/static/media/zara-ebrahim.7090b4f5.png",
     "static/media/zod.ff269c86.png": "/static/media/zod.ff269c86.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9412c5a0.js",
     "static/js/2.1f42caec.chunk.js",
-    "static/css/main.ad8416d5.chunk.css",
-    "static/js/main.1671c2e1.chunk.js"
+    "static/css/main.454a226a.chunk.css",
+    "static/js/main.9a489bdd.chunk.js"
   ]
 }
