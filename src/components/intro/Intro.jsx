@@ -9,6 +9,7 @@ import { ThemeContext } from '../../context'
 
 const Intro = () => {
   const theme = useContext(ThemeContext)
+  const darkMode = theme.state.darkMode
 
   return (
     <div className='i'>
@@ -50,6 +51,13 @@ const Intro = () => {
             specializing in creating modern websites, web services and, saas
             apps.
           </p>
+          <div
+            class='contra-hire-me-button'
+            data-analyticsUserId='51ebbd2e-b217-4b4f-abeb-57a80b6c3aae'
+            data-theme={darkMode ? 'dark' : 'light'}
+            data-username='ziaarsalan'
+          ></div>
+
           <Social />
         </div>
         <svg
