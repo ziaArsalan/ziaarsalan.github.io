@@ -7,6 +7,7 @@ import beasty from './img/beasty.png'
 import monsterhub from './img/monsterhub.png'
 import zod from './img/zod.png'
 import walletly from './img/walletly.png'
+import walletcampaigns from './img/walletcampaigns.png'
 import airtap from './img/airtap.png'
 import tradexco from './img/tradexco.png'
 import micahguru from './img/Micahguru.png'
@@ -23,6 +24,12 @@ import Brams from './img/bram.jpeg'
 import Jose from './img/jose.jpeg'
 
 export const products = [
+  {
+    id: 18,
+    title: 'WalletCampaigns',
+    img: walletcampaigns,
+    link: 'https://walletcampaigns.com',
+  },
   {
     id: 17,
     title: 'LCT Auto',
@@ -47,24 +54,24 @@ export const products = [
     img: anastomosis,
     link: 'http://anastomosisdesignlab.com/',
   },
-  {
-    id: 13,
-    title: 'beasty',
-    img: beasty,
-    link: 'https://beasty.app/',
-  },
+  // {
+  //   id: 13,
+  //   title: 'beasty',
+  //   img: beasty,
+  //   link: 'https://beasty.app/',
+  // },
   {
     id: 12,
     title: 'micahguru',
     img: micahguru,
     link: 'https://micahguru.co.uk/',
   },
-  {
-    id: 11,
-    title: 'airtap',
-    img: airtap,
-    link: 'https://airtap.ca/',
-  },
+  // {
+  //   id: 11,
+  //   title: 'airtap',
+  //   img: airtap,
+  //   link: 'https://airtap.ca/',
+  // },
   {
     id: 10,
     title: 'walletly',
@@ -95,12 +102,12 @@ export const products = [
     img: portfolio,
     link: 'https://ziaarsalan.github.io',
   },
-  {
-    id: 5,
-    title: 'snap that home',
-    img: snapthathome,
-    link: 'https://snapthathome.com.au/',
-  },
+  // {
+  //   id: 5,
+  //   title: 'snap that home',
+  //   img: snapthathome,
+  //   link: 'https://snapthathome.com.au/',
+  // },
   {
     id: 4,
     title: 'coding school',
@@ -119,12 +126,12 @@ export const products = [
     img: takafulbazar,
     link: 'https://takafulbazaar.pk/',
   },
-  {
-    id: 1,
-    title: 'monsterhub',
-    img: monsterhub,
-    link: 'https://monsterhub.io/',
-  },
+  // {
+  //   id: 1,
+  //   title: 'monsterhub',
+  //   img: monsterhub,
+  //   link: 'https://monsterhub.io/',
+  // },
 ]
 
 export const reviews = [
